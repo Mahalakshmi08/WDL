@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang='en' dir='ltr'>
+<head>
+<meta charset="utf-8">
+<title>doubts and queries</title>
+<link rel = "icon" href = "pictures/logo.png">
+
+
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url("pictures/m1.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    font-family: cursive;
+  }
+
+
+
+    .content-box{
+    padding:10px 10px 10px 10px;
+	  float:center;
+    margin-left: auto;
+    margin-right: auto;
+	  margin-top:10px;
+    box-sizing: content-box;
+    width: 500px;
+    height: 350px;
+    background-color:   #ffc8ff;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    box-shadow:5px BLACK;
+  }
+  form{
+    margin-top: 30px;;
+  }
+  .bg{
+    background-image: url("images/12.jpg") ;
+    background-color:#FFFFCC;
+
+  }
+  .sub_but{
+    background-color: #4CAF50;
+ border: none;
+ color: black;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 30px;
+ margin: 4px 2px;
+ cursor: pointer;
+
+  }
+  .sub_but:hover {
+  background-color:palegreen;
+}
+
+  </style>
+  </head>
+  <body class="bg">
+
+       <div class="content-box">
+        <div style="margin-top: 30px;">
+      <center><h2>QUERIES AND DOUBTS</h2></center>
+      <center>
+      <form name=f1  method="POST" action="contact.php"  >
+      <table name=tab >
+
+      <tr><td align=left><h2>Enter Name:</h2> </td><td align=right><input type="text" name="name1" placeholder="Enter your name"></td></tr>
+      <tr></tr>
+      <tr><td align=left><h2>Enter Email:</h2> </td><td align=right><input type="email" name="email1"   placeholder="Enter email" ></td></tr>
+      <tr></tr>
+      <tr><td align=left><h2>Doubts and queries:</h2> </td><td align=right>
+        <textarea cols="22" rows="6" name="textarea"></textarea></td></tr>
+      <tr></tr>
+      </table>
+      <center>
+      <button class="sub sub_but" type="submit" href="contact.php">Submit</button>
+      </center>
+
+      </form>
+      </center>
+      </div>
+      </div>
+      </body>
+      </html>
